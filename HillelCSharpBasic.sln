@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "Variables\Vari
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "Operators\Operators.csproj", "{359DA3E4-A687-4F7F-A2B5-275F69213483}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{B2CE6340-EEC9-499B-9603-10C168880509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Exceptions.csproj", "{B2CE6340-EEC9-499B-9603-10C168880509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cycles", "Cycles\Cycles.csproj", "{2675E4FA-4499-442E-BDC9-1D77F6428162}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B2CE6340-EEC9-499B-9603-10C168880509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2CE6340-EEC9-499B-9603-10C168880509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2CE6340-EEC9-499B-9603-10C168880509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2675E4FA-4499-442E-BDC9-1D77F6428162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2675E4FA-4499-442E-BDC9-1D77F6428162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2675E4FA-4499-442E-BDC9-1D77F6428162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2675E4FA-4499-442E-BDC9-1D77F6428162}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
