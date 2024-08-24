@@ -67,6 +67,15 @@ int[,,] array3D = new int[3, 3, 3]
       { { 10,11,12 }, { 13,14,15 }, { 16,17,18} },
       { { 19,20,21 }, { 22,23,24 }, { 25,26,27} } };
 
+// ітерування по двовимірному масиву 
+for (int i = 0; i < array2D.GetLength(0); i++)
+{
+    for (int j = 0; j < array2D.GetLength(1); j++)
+    {
+
+    }
+}
+
 Console.WriteLine(array3D.Length);
 Console.WriteLine(array3D[1,2,2]);
 
@@ -81,4 +90,64 @@ foreach (int[] arr in jaggedArray)
     {
         Console.Write($"{item} ");
     }
+}
+
+string str = "asd1fgh";
+string reversed = "hgf1dsa";
+
+char ch = 'a';
+
+for (int i = 0; i < str.Length; i++)
+{
+    Console.Write(str[i]);
+}
+
+int type = 1;
+
+if (type == 1)
+{ 
+    Console.WriteLine("This is active group");
+}
+else if (type == 2)
+{
+    Console.WriteLine("This is finished group");
+}
+else if (type == 3)
+{
+    Console.WriteLine("This is student group");
+}
+else
+{
+    Console.WriteLine("Type is unknown");
+}
+
+GroupType active = GroupType.Active;
+
+int finish = 0;
+string groupType = "Active";
+
+Enum.TryParse(groupType, out active);
+
+if (active == GroupType.Active)
+{
+    Console.WriteLine("This is active group");
+}
+else if (active == GroupType.Finished)
+{ 
+    Console.WriteLine("This is finished group");
+}
+else if (active == GroupType.Student)
+{
+    Console.WriteLine("This is student group");
+}
+else
+{
+    Console.WriteLine("Type is unknown");
+}
+
+enum GroupType
+{ 
+    Active = 1,
+    Finished = 2,
+    Student = 3
 }
