@@ -37,6 +37,10 @@ internal class Program
         // виклик статичного методу з класу SimpleClass
         SimpleClass.Multiple(10, 3);
 
+        Func<int, int, int> multiple = SimpleClass.Multiple;
+
+        multiple += multiple;
+
         return;
     }
 
